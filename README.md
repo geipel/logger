@@ -20,7 +20,8 @@ line number and file name from the source code (via `__LINE__` and `__FILE__`).
 ## Goals
 
 - Re-implement from scratch in **`C++20`** using new features to remove the need for macros. :smiley:
-- Thread safety
+- Thread safe
+- Exception safe
 - Portable
 - Efficient (limited overhead when optimized)
 - Fully unit-tested
