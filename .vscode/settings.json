@@ -1,0 +1,36 @@
+{
+    "black-formatter.args": [
+        "--line-length=120",
+        "--skip-string-normalization",
+    ],
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80, 120],
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 4,
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/build": true,
+        "**/.DS_Store": true,
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "flake8.args": [
+        "--ignore=E203,E221,E241,E251,E402",
+        "--max-complexity=5",
+        "--max-line-length=120",
+    ],
+    "git.openRepositoryInParentFolders": "always",
+    "isort.args": [
+        "--line-length=120",
+        "--profile=black",
+    ],
+    "pylint.args" : [
+        "--disable=C0116",
+        "--disable=C0301",
+        "--disable=C0413",
+    ],
+    "window.autoDetectColorScheme": true,
+}
